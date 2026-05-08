@@ -1,0 +1,26 @@
+Requirements
+General requirements
+The labs should be solved individually. You are welcome to discuss the problems with other students, but your implementation should be individual.
+
+The code should be commented and well structured. Every assignment has a suggested function/class with name, input parameters and return values. This is only a suggestion, you may find better ways of doing it as long as it solves the problem. Take a look at the GNU coding standard and the Google coding standard for inspiration.
+
+Documentation
+Every function and class should be appropriately documented. The documentation should explain things that are not obvious from the code. The code together with the documentation should be enough to understand both what the codes does (and what it does not do) and how to use it. The course does not include a written exam nor lab reports, so it is with the documentation you show your understanding of the theory related to the assignments. Your documentation will also help you greatly during the problem solving sessions. Your documentation should at least include:
+
+Your name as the author.
+A short explanation of the problem solved.
+An explanation of the algorithm(s) implemented.
+Time complexity of each algorithm and data structure operation. Memory complexity should also be included if it is larger than the input size.
+Practical instructions on how to use the implementation. This includes any assumptions made with regards to parameter values etc, e.g. if an input list is assumed to be non-empty.
+Error handling
+The ideal is that your algorithms and data structures are general and robust, but it is hard to achieve. The most important thing is that exceptional cases are handled, by for example throwing an exception, and that this is well documented.
+
+Inofficial interpretation of requirements
+Here are interpretations, applications and rules of thumb related to the requirements. This is not an exhaustive list!
+
+Separate your algorithm/data structure implementation from input/output handling. Read the input, call a solver, output the result. The algorithm should not be responsible for input/output.
+Your algorithms should not be specially designed for Kattis test cases.
+Divide your code into multiple files when appropriate. For example, do not paste Kattio.java into your own code.
+Comment appropriately. Do not obscure the code with too many comments. Do not state the obvious. Comment functions and blocks of code rather than individual lines. Comment intent and not operations! Be certain to document the API of your code library from a user perspective rather than developer perspective. Input, output and exceptions are the most important aspects.
+The lab assignments suggest an API. Use this unless you find something which at least as good with respect to reusability. The API should not be designed explicitly for Kattis.
+Every student should submit to Kattis!
